@@ -68,17 +68,21 @@ nav ul li a:hover {
 }
 
 .hero-content h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
 }
 
 .hero-content p {
-    font-size: 1.5rem;
+    font-size: 2rem; /* Increase font size for "Welcome!" */
     margin-bottom: 2rem;
+    font-weight: 500; /* Add weight to make it more prominent */
+    color: #f1f1f1; /* Slightly lighter white for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Subtle shadow for depth */
 }
 
+
 .discover-btn {
-    padding: 0.8rem 1.5rem;
+    padding: 1rem 1.5rem;
     font-size: 1rem;
     color: white;
     background-color: #0077cc;
